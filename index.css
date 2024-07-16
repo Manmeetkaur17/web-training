@@ -1,0 +1,53 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 40px;
+    align-items: center;
+}
+#navbar li a{
+    text-decoration: none;
+
+}
+#navbar li{
+    list-style: none;
+}
+
+ol{
+    background-color: aqua;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+td{
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+
+}
+
+#form-div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: darkseagreen;
+    justify-content: center;
+}
+
+input{
+    padding: 6px;
+    margin-bottom: 2px;
+    
+}
