@@ -30,6 +30,13 @@ nav {
     height: fit-content;   
 }
 
+#mainContainer{
+    border: 2px solid red;
+    width: 100%;
+    
+
+}
+
 #sidebar {
     width: 30%;
     background-color: bisque;
