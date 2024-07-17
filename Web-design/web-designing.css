@@ -25,7 +25,7 @@ nav {
 }
 
 a:hover{
-    background-color: blue;
+    background-color: rgb(124, 124, 191);
    
 
 }
@@ -36,6 +36,12 @@ hr{
 
 #HamberNav{
     display: none;
+    background-color: black;
+    padding: 6px;
+    display: flex;
+    width: 100%;
+    color: white;
+
 }
 
 
@@ -51,6 +57,7 @@ ul{
     gap: 10px;
     padding: 3em; 
     display: flex;
+
 
 
 }
@@ -70,6 +77,8 @@ ul{
     justify-content: space-around;
     margin-top: 10px;
     width: 75%;
+    gap: 10px;
+    justify-content: center;
 
 }
 
@@ -77,29 +86,38 @@ ul{
 
 .card {
     border: 1px solid black;  
-    border-spacing: 10px;
-    height: 500px;
+
+    height: 450px;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    color: aqua;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
    
    
 }
 
 .img {
     margin-top: 50px;
-    height: 150px;
+    height: 30%;
     display: flex;
     justify-content: space-around;
-    justify-content: center;
-    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .info {
     text-align: center;
     justify-content: center;
+    flex: 1;
     display: flex;
     flex-wrap: wrap; 
+    background-color: rgb(80, 144, 246);
+    color: white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
   
 }
 
@@ -109,7 +127,7 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(48, 100, 172);
+    background-color: rgb(68, 188, 236);
     margin-bottom: 10px;
 
 }
@@ -140,8 +158,9 @@ ul{
     }
 
     #HamberNav{
-        display: flex;
+        /* display: flex; */
         justify-content: left;
+        position: fixed;
     }
 
     #sidebar{
